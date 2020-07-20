@@ -1,0 +1,22 @@
+{
+  "name": "task-cli",
+  "version": "1.0.0",
+  "description": "task cli app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fuad",
+  "license": "ISC",
+  "bin": {
+    "list": "index.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "node-fetch": "^2.6.0",
+    "pouchdb": "^7.2.1",
+    "pouchdb-adapter-websql-core": "^7.0.0",
+    "react-native-sqlite-storage": "^5.0.0",
+    "yargs": "^15.4.1"
+  }
+}
